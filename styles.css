@@ -9,21 +9,23 @@
 }
 
 .variablebox{
-    font-family: fantasy;
+    font-family: 'Snell Roundhand','Italianno','Allura';
     text-align: center;
+    background-color: lightpink; /* pagaidu */
+    opacity: 0.5; /* pagaidu */
 }
 
 .recipient{
-    width: 500px;
-    font-size: 100px;
+    width: 2200px;
+    font-size: 160px;
     position: absolute;
-    top: 2500px;
-    left: 1000px;
+    top: 2450px;
+    left: 120px;
 }
 
 .description{
     width: 2000px;
-    font-size: 50px;
+    font-size: 48px;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 2650px;

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Allura|Italianno&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <title>Dāvanu karte</title>
 </head>
@@ -16,7 +17,7 @@
 
 
         <div class="variablebox recipient">
-            %newName%
+            %Kristofers Valters Jēkabsons%
         </div>
 
         <div class="variablebox description">
@@ -28,9 +29,15 @@
         </div>
 
         <div class="variablebox purchasedate">
-            %newDate%
+            <p id="currentDate"></p>
         </div>
+        <script>
+            var today = new Date();
+            var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+            document.getElementById("currentDate").innerHTML = date;
+        </script>
 
+        <!-- Dāvanu kartes ID domāts ka ģenerējas no datuma un kārtas numura attiecīgajā gadā (YYYYMMDD-i) -->
         <div class="variablebox giftid">
             %newId%
         </div>

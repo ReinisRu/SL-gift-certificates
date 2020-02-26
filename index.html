@@ -33,7 +33,8 @@
         </div>
         <script>
             var today = new Date();
-            var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+            var months = ["Janvāris", "Februāris", "Marts", "Aprīlis", "Maijs", "Jūnijs", "Jūlijs", "Augusts", "Septembris", "Oktobris", "Novembris", "Decembris"];
+            var date = today.getDate() + '-' + (months[today.getMonth()]) + '-' + today.getFullYear();
             document.getElementById("currentDate").innerHTML = date;
         </script>
 

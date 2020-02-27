@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* SM Small */
+body{
+    background-image: url(images/SLtandemSM.png);
+    background-repeat: no-repeat;
+}
+.container{
+    padding: 0;
+    position: absolute;
+    width: 576px;
+    height: 812px;
+}
+.variablebox{
+    font-family: 'Snell Roundhand','Italianno','Allura';
+    text-align: center;
+    /* background-color: lightpink; */
+    /* opacity: 0.5;  */
+}
+.recipient{
+    width: 576px;
+    font-size: 36px;
+    position: absolute;
+    top: 570px;
+    left: 0px;
+}
+.description{
+    width: 576px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 620px;
+    left: 0px;
+}
+.purchasedate{
+    width: 140px;
+    font-size: 17px;
+    position: absolute;
+    top: 680px;
+    left: 135px;
+}
+.giftid{
+    width: 140px;
+    font-size: 17px;
+    position: absolute;
+    top: 680px;
+    left: 345px;
+}
+/* MD Medium */
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: url(images/SLtandemMD.png);
+    }
+    .container{
+        width: 768px;
+        height: 1083px;
+    }
+    .recipient{
+        width: 768px;
+        font-size: 48px;
+        top: 760px;
+        left: 0px;
+    }
+    .description{
+        width: 768px;
+        font-size: 13px;
+        top: 824px;
+        left: 0px;
+    }
+    .purchasedate{
+        width: 180px;
+        font-size: 24px;
+        top: 908px;
+        left: 190px;
+    }
+    .giftid{
+        width: 180px;
+        font-size: 24px;
+        top: 908px;
+        left: 460px;
+    }
+  }
+  /* LG Large */
+@media only screen and (min-width: 992px) {
+    body {
+        background-image: url(images/SLtandemLG.png);
+    }
+    .container{
+        width: 992px;
+        height: 1399px;
+    }
+    .recipient{
+        width: 992px;
+        font-size: 60px;
+        top: 986px;
+        left: 0px;
+    }
+    .description{
+        width: 992px;
+        font-size: 17px;
+        top: 1064px;
+        left: 0px;
+    }
+    .purchasedate{
+        width: 240px;
+        font-size: 32px;
+        top: 1170px;
+        left: 240px;
+    }
+    .giftid{
+        width: 240px;
+        font-size: 32px;
+        top: 1170px;
+        left: 595px;
+    }
+  }
+  /* XL Extra Large */
+@media only screen and (min-width: 1200px) {
+    body {
+        background-image: url(images/SLtandemXL.png);
+    }
+    .container{
+        width: 1200px;
+        height: 1693px;
+    }
+    .recipient{
+        width: 1200px;
+        font-size: 74px;
+        top: 1191px;
+        left: 0px;
+    }
+    .description{
+        width: 1200px;
+        font-size: 20px;
+        top: 1288px;
+        left: 0px;
+    }
+    .purchasedate{
+        width: 300px;
+        font-size: 36px;
+        top: 1420px;
+        left: 280px;
+    }
+    .giftid{
+        width: 300px;
+        font-size: 36px;
+        top: 1420px;
+        left: 720px;
+    }
+  }
+/* Full Size */
+@media only screen and (min-width: 1600px) {
+    body {
+        background-image: url(images/SLtandemFullSize.png);
+    }
+    .container{
+        width: 2482px;
+        height: 3501px;
+    }
+    .recipient{
+        width: 2200px;
+        font-size: 160px;
+        top: 2450px;
+        left: 120px;
+    }
+    .description{
+        width: 2000px;
+        font-size: 40px;
+        top: 2660px;
+        left: 240px;
+    }
+    .purchasedate{
+        width: 600px;
+        font-size: 80px;
+        top: 2930px;
+        left: 600px;
+    }
+    .giftid{
+        width: 600px;
+        font-size: 80px;
+        top: 2930px;
+        left: 1480px;
+    }
+  }

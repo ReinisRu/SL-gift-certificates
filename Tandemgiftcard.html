@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Allura|Italianno&display=swap" rel="stylesheet">
+    <link href="stylesTandem.css" rel="stylesheet" type="text/css" />
+    <title>Dāvanu karte</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="variablebox recipient">
+            %Kristofers Valters Jēkabsons%
+        </div>
+        <div class="variablebox description">
+            VAR VEIKT 1 APMĀCĪBU LĒCIENU NO LIDMAŠĪNAS KOPĀ AR INSTRUKTORU <br> UN OPERATORU, IZMANTOJOT TANDĒMA
+            IZPLETŅA
+            SISTĒMU <br>
+            <SPAN style="color:WHITE">NO 4000 METRU AUGSTUMA. BRĪVAIS KRITIENS LĪDZ 60 SEKUNDĒM.</SPAN><br>
+            LIDOJUMS ZEM ATVĒRTA IZPLETŅA LĪDZ 10 MINŪTĒM.
+        </div>
+        <div class="variablebox purchasedate">
+            <p id="currentDate"></p>
+        </div>
+        <script>
+            var today = new Date();
+            var months = ["Janvāris", "Februāris", "Marts", "Aprīlis", "Maijs", "Jūnijs", "Jūlijs", "Augusts", "Septembris", "Oktobris", "Novembris", "Decembris"];
+            var date = today.getDate() + '-' + (months[today.getMonth()]) + '-' + today.getFullYear();
+            document.getElementById("currentDate").innerHTML = date;
+        </script>
+        <div class="variablebox giftid">
+            %newId%
+            <!-- Dāvanu kartes ID domāts ka ģenerējas no datuma un kārtas numura attiecīgajā gadā (YYYYMMDD-i) -->
+        </div>
+    </div>
+</body>
+
+</html>

@@ -17,8 +17,8 @@ body{
 .variablebox{
     font-family: 'Snell Roundhand','Italianno','Allura';
     text-align: center;
-    background-color: lightpink; /* pagaidu */
-    opacity: 0.5; /* pagaidu */
+    /* background-color: lightpink; */
+    /* opacity: 0.5;  */
 }
 .recipient{
     width: 576px;
@@ -36,18 +36,18 @@ body{
     left: 0px;
 }
 .purchasedate{
-    width: 120px;
-    font-size: 16px;
+    width: 140px;
+    font-size: 17px;
     position: absolute;
-    top: 682px;
-    left: 145px;
+    top: 680px;
+    left: 135px;
 }
 .giftid{
-    width: 120px;
-    font-size: 16px;
+    width: 140px;
+    font-size: 17px;
     position: absolute;
-    top: 682px;
-    left: 355px;
+    top: 680px;
+    left: 345px;
 }
 /* MD Medium */
 @media only screen and (min-width: 768px) {

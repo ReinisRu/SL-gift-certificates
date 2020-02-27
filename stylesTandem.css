@@ -94,7 +94,7 @@ body{
     }
     .recipient{
         width: 992px;
-        font-size: 60px;
+        font-size: 61px;
         top: 986px;
         left: 0px;
     }
@@ -161,16 +161,16 @@ body{
         height: 3501px;
     }
     .recipient{
-        width: 2200px;
+        width: 2482px;
         font-size: 160px;
         top: 2450px;
-        left: 120px;
+        left: 0px;
     }
     .description{
-        width: 2000px;
+        width: 2482px;
         font-size: 40px;
         top: 2660px;
-        left: 240px;
+        left: 0px;
     }
     .purchasedate{
         width: 600px;

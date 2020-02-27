@@ -17,14 +17,14 @@ body{
 .variablebox{
     font-family: 'Snell Roundhand','Italianno','Allura';
     text-align: center;
-    background-color: lightpink;
-    opacity: 0.5; 
+    /* background-color: springgreen; */
+    /* opacity: 0.4;  */
 }
 .recipient{
     width: 576px;
-    font-size: 36px;
+    font-size: 37px;
     position: absolute;
-    top: 570px;
+    top: 562px;
     left: 0px;
 }
 .description{
@@ -37,16 +37,16 @@ body{
     left: 0px;
 }
 .purchasedate{
-    width: 140px;
-    font-size: 17px;
+    width: 150px;
+    font-size: 18px;
     color: white;
     position: absolute;
     top: 680px;
-    left: 135px;
+    left: 110px;
 }
 .giftid{
     width: 140px;
-    font-size: 17px;
+    font-size: 18px;
     color: white;
     position: absolute;
     top: 680px;
@@ -63,26 +63,26 @@ body{
     }
     .recipient{
         width: 768px;
-        font-size: 48px;
-        top: 760px;
+        font-size: 50px;
+        top: 750px;
         left: 0px;
     }
     .description{
         width: 768px;
         font-size: 13px;
-        top: 824px;
+        top: 828px;
         left: 0px;
     }
     .purchasedate{
-        width: 180px;
+        width: 200px;
         font-size: 24px;
-        top: 908px;
-        left: 190px;
+        top: 907px;
+        left: 145px;
     }
     .giftid{
-        width: 180px;
+        width: 190px;
         font-size: 24px;
-        top: 908px;
+        top: 907px;
         left: 460px;
     }
   }
@@ -97,27 +97,27 @@ body{
     }
     .recipient{
         width: 992px;
-        font-size: 60px;
-        top: 986px;
+        font-size: 64px;
+        top: 970px;
         left: 0px;
     }
     .description{
         width: 992px;
         font-size: 17px;
-        top: 1064px;
+        top: 1070px;
         left: 0px;
     }
     .purchasedate{
         width: 240px;
         font-size: 32px;
         top: 1170px;
-        left: 240px;
+        left: 200px;
     }
     .giftid{
         width: 240px;
         font-size: 32px;
         top: 1170px;
-        left: 595px;
+        left: 600px;
     }
   }
   /* XL Extra Large */
@@ -131,27 +131,27 @@ body{
     }
     .recipient{
         width: 1200px;
-        font-size: 74px;
-        top: 1191px;
+        font-size: 78px;
+        top: 1170px;
         left: 0px;
     }
     .description{
         width: 1200px;
         font-size: 20px;
-        top: 1288px;
+        top: 1295px;
         left: 0px;
     }
     .purchasedate{
         width: 300px;
-        font-size: 36px;
+        font-size: 38px;
         top: 1420px;
-        left: 280px;
+        left: 235px;
     }
     .giftid{
         width: 300px;
-        font-size: 36px;
+        font-size: 38px;
         top: 1420px;
-        left: 720px;
+        left: 724px;
     }
   }
 /* Full Size */
@@ -164,26 +164,26 @@ body{
         height: 3501px;
     }
     .recipient{
-        width: 2200px;
+        width: 2482px;
         font-size: 160px;
-        top: 2450px;
-        left: 120px;
+        top: 2420px;
+        left: 0px;
     }
     .description{
-        width: 2000px;
-        font-size: 40px;
-        top: 2660px;
-        left: 240px;
+        width: 2482px;
+        font-size: 42px;
+        top: 2680px;
+        left: 0px;
     }
     .purchasedate{
-        width: 600px;
-        font-size: 80px;
+        width: 640px;
+        font-size: 84px;
         top: 2930px;
-        left: 600px;
+        left: 500px;
     }
     .giftid{
         width: 600px;
-        font-size: 80px;
+        font-size: 84px;
         top: 2930px;
         left: 1480px;
     }

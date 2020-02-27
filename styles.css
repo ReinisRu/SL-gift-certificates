@@ -117,6 +117,40 @@ body{
         left: 595px;
     }
   }
+  /* XL Extra Large */
+@media only screen and (min-width: 1200px) {
+    body {
+        background-image: url(images/SLtandemXL.png);
+    }
+    .container{
+        width: 1200px;
+        height: 1693px;
+    }
+    .recipient{
+        width: 1200px;
+        font-size: 74px;
+        top: 1191px;
+        left: 0px;
+    }
+    .description{
+        width: 1200px;
+        font-size: 20px;
+        top: 1288px;
+        left: 0px;
+    }
+    .purchasedate{
+        width: 300px;
+        font-size: 36px;
+        top: 1420px;
+        left: 280px;
+    }
+    .giftid{
+        width: 300px;
+        font-size: 36px;
+        top: 1420px;
+        left: 720px;
+    }
+  }
 /* Full Size */
 @media only screen and (min-width: 1600px) {
     body {

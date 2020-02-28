@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: 'myTrajanBold';
-    src: url(trajanpro-bold.otf);
+    font-family: 'myTrajan';
+    src: url(trajanpro-regular.otf);
   }
 /* SM Small */
 body{
@@ -34,9 +34,8 @@ body{
 .description{
     width: 576px;
     font-size: 9px;
-    font-family: 'myTrajanBold', Arial, sans-serif;
+    font-family: 'myTrajan', Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: bold;
     position: absolute;
     top: 620px;
     left: 0px;

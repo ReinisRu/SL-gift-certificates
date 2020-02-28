@@ -33,7 +33,7 @@ body{
 }
 .description{
     width: 576px;
-    font-size: 10px;
+    font-size: 9px;
     font-family: 'myTrajanBold', Arial, sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -74,7 +74,7 @@ body{
     }
     .description{
         width: 768px;
-        font-size: 13px;
+        font-size: 12px;
         top: 828px;
         left: 0px;
     }
@@ -108,7 +108,7 @@ body{
     }
     .description{
         width: 992px;
-        font-size: 17px;
+        font-size: 15px;
         top: 1070px;
         left: 0px;
     }
@@ -142,7 +142,7 @@ body{
     }
     .description{
         width: 1200px;
-        font-size: 20px;
+        font-size: 18px;
         top: 1295px;
         left: 0px;
     }
@@ -176,7 +176,7 @@ body{
     }
     .description{
         width: 2482px;
-        font-size: 42px;
+        font-size: 38px;
         top: 2680px;
         left: 0px;
     }

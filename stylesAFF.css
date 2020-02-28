@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'myTrajanBold';
+    src: url(trajanpro-bold.otf);
+  }
 /* SM Small */
 body{
     background-image: url(images/SLaffSM.png);
@@ -30,7 +34,7 @@ body{
 .description{
     width: 576px;
     font-size: 10px;
-    font-family: 'Trajan Pro', Arial, sans-serif;
+    font-family: 'myTrajanBold', Arial, sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     position: absolute;
